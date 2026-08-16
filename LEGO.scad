@@ -613,6 +613,36 @@ module block(
                             }
                         }
                     }
+                    
+                    
+                                        // 1 dim reinforcements fix start.
+                    
+                                      if (type != "baseplate" && block_bottom_type == "open" && (real_width == 1 || real_length == 1) && !real_dual_sided && roof_thickness < block_height * height) {
+                        // Reinforcements and posts
+                        translate([post_diameter / 2, post_diameter / 2, 0]) {
+                            translate([(overall_length - total_posts_length)/2, (overall_width - total_posts_width)/2, 0]) {
+                                union() {
+                                    // Reinforcements
+                                    if (real_reinforcement) {
+                                        difference() {
+                                            for (ycount=[1:real_width/2]) {
+                                                for (xcount=[1:real_length-1]) {
+                                                    translate([(xcount-1)*stud_spacing,(ycount-1)*stud_spacing,0]) reinforcement_single();
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 
                     if (type != "baseplate" && block_bottom_type == "open" && (real_width == 1 || real_length == 1) && real_width != real_length && !real_dual_sided && roof_thickness < block_height * height) {
                         // Pins
@@ -1144,6 +1174,15 @@ module block(
             translate([0,0,real_height*block_height/2]) union() {
                 cube([reinforcing_width, 2 * (stud_spacing - (2 * wall_play)), real_height * block_height],center=true);
                 rotate(v=[0,0,1],a=90) cube([reinforcing_width, 2 * (stud_spacing - (2 * wall_play)), real_height * block_height], center=true);
+            }
+        }
+    }
+    
+   module reinforcement_single() {
+        union() {
+            translate([0,0,real_height*block_height/2]) union() {
+                cube([reinforcing_width, 1 * (stud_spacing - (2 * wall_play)), block_height_ratio * block_height],center=true);
+                rotate(v=[0,0,1],a=90) cube([reinforcing_width, 0 * (stud_spacing - (2 * wall_play)), real_height * block_height], center=true);
             }
         }
     }
