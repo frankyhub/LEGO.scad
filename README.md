@@ -12,6 +12,9 @@
 
 Models Made of LEGO Bricks
 
+<img src="examples/images/LEGOBricks.png" width="600"> 
+<br> <br>
+
 Building instructions:
 
 <a href="https://www.lego.com/de-de/service/building-instructions#?text=8633" target="_blank">link</a>
