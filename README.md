@@ -11,19 +11,15 @@
 </div>
 
 Models Made of LEGO Bricks
-Dies ist ein [Referenz-Link][1].
-Dies ist ein weiterer [Referenz-Link][link-name].
-
-[link-name]: https://www.google.com "Google Suche"
-
 
 Building instructions:
 
-[link](https://www.lego.com/de-de/service/building-instructions#?text=8633)
+<a href="https://www.lego.com/de-de/service/building-instructions#?text=8633" target="_blank">link</a>
+
 
 Building example:
 
-[link](https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4597662.pdf)
+<a href="https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4597662.pdf">link</a>
 
 # LEGO.scad
 
