@@ -11,6 +11,11 @@
 </div>
 
 Models Made of LEGO Bricks
+Dies ist ein [Referenz-Link][1].
+Dies ist ein weiterer [Referenz-Link][link-name].
+
+[link-name]: https://www.google.com "Google Suche"
+
 
 Building instructions:
 
