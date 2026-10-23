@@ -12,8 +12,6 @@
 
 Models Made of LEGO Bricks
 
-<a href="https://www.lego.com/de-de/service/building-instructions#?text=8633" target="_blank">New Tab</a>
-
 Building instructions:
 
 <a href="https://www.lego.com/de-de/service/building-instructions#?text=8633" target="_blank">link</a>
