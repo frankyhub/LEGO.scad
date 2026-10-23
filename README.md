@@ -10,6 +10,16 @@
 
 </div>
 
+Models Made of LEGO Bricks
+
+Building instructions:
+
+[link](https://www.lego.com/de-de/service/building-instructions#?text=8633)
+
+Building example:
+
+[link](https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4597662.pdf)
+
 # LEGO.scad
 
 An OpenSCAD LEGO-compatible brick generator.
@@ -3943,6 +3953,8 @@ block(
 
 </td></tr>
 </table>
+
+LEGO® is a brand of the LEGO Group. This website is not sponsored, approved, or supported by the LEGO Group.
 
 <div style="position:absolute; left:2cm; ">   
 <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
