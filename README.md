@@ -12,7 +12,7 @@
 
 Models Made of LEGO Bricks
 
-<img src="examples/images/LEGOBricks.png" width="600"> 
+<img src="examples/images/LEGOBricks.png" width="800"> 
 <br> <br>
 
 Building instructions:
