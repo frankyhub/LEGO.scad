@@ -12,7 +12,7 @@
 
 Models Made of LEGO Bricks
 
-[c’t](https://ct.de){target="_blank"}
+<a href="https://www.lego.com/de-de/service/building-instructions#?text=8633" target="_blank">New Tab</a>
 
 Building instructions:
 
